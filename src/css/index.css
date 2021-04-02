@@ -1,9 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,7 +21,6 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -650,6 +645,7 @@ button:hover {
 
 .footer {
   background: #2B2B2B;
+  padding-bottom: 73px;
 }
 
 .footer__row {
@@ -661,6 +657,7 @@ button:hover {
 }
 
 .footer__name {
+  margin: 22px 0 19px;
   margin-bottom: 19px;
   opacity: 0.9;
   color: #fff;
@@ -699,7 +696,7 @@ button:hover {
   width: auto;
   line-height: 1em;
   opacity: 0.4;
-  margin: 16px 38px 56px auto;
+  margin: 16px 10% 56px auto;
 }
 
 .footer__yes {
@@ -720,9 +717,11 @@ button:hover {
   outline: none;
   letter-spacing: 2px;
   padding: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   color: #fff;
   font-size: 14px;
-  width: 35.5%;
+  width: auto;
   line-height: 1em;
 }
 

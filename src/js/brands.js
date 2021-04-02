@@ -1,8 +1,8 @@
 var swiper = new Swiper('.brands__swiper-container', {
     loop:true,
-    autoplay: true,
+    // autoplay: true,
     centeredSlides: true,
-    speed: 100,
+    // speed: 100,
     spaceBetween: 1,
     slidesPerView:1,
     slidesPerGroup:1,

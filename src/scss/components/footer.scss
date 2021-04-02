@@ -1,11 +1,13 @@
 .footer{
     background: #2B2B2B;
+    padding-bottom: 73px;
     &__row{
         padding: 97px 0 51px;
         justify-content: space-evenly;
         margin: 0 auto;
     }
     &__name{
+        margin: 22px 0 19px;
         margin-bottom: 19px;
         opacity: 0.9;
         @include font($colorWhite, 14px, 100%, 1em);
@@ -29,7 +31,7 @@
         background: #2B2B2B;
         @include font($colorWhite, 14px, auto, 1em);
         opacity: 0.4;
-        margin: 16px 38px 56px auto;   
+        margin: 16px 10% 56px auto;   
     }
     &__yes{
         @include font($colorWhite, 11px, 100%, 1em);
@@ -45,7 +47,8 @@
         outline: none;
         letter-spacing: 2px;
         padding: 20px;
-        @include font($colorWhite, 14px, 35.5%, 1em);
+        transition: 0.5s;
+        @include font($colorWhite, 14px, auto, 1em);
         &:hover{
             cursor: pointer;
             border: 1px solid $colorWhite;
