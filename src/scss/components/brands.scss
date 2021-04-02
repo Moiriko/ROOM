@@ -1,0 +1,35 @@
+.brands{
+    text-align: center;
+    margin: 0 0 111px;
+    &__title{
+        @include font($colorLightBlack, 48px, 100%, 1em);
+    }
+    &__description{
+        @include font(#4A4A4A, 24px, 100%, 1.5em);
+        margin: 27px auto 0;
+    }
+    &__row{
+        margin: 125px auto 190px;
+    }
+    &__img{
+        margin: 0 auto 49px;
+    }
+    &__swiper-container{
+        overflow: hidden;
+        position: relative;
+        min-height: 725px;
+        // position: absolute;
+    }
+    
+}
+.swiper-button-prev {
+    color: $colorWhite;
+    left: 3.5%;
+  }
+  .swiper-button-next {
+    color: $colorWhite;
+    right: 3.5%;
+  }
+  .swiper-pagination-bullet, .swiper-pagination-bullet-active{
+    background: $colorGreen;
+  }

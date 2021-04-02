@@ -1,0 +1,15 @@
+.header {
+  text-transform: uppercase;
+}
+
+.header__top {
+  background: #f4f4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 3px 0 4px;
+  @in;
+}

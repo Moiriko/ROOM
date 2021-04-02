@@ -1,0 +1,34 @@
+.work{
+    &__title{
+        justify-content: center;
+        margin: 240px 0 135px;
+    }
+    &__title1{
+        @include font($colorGray, 46px, 64%, 1.13em);
+        margin-bottom: 25px;
+    }
+    &__title2{
+        @include font($colorBlack, 46px, 63%, 1.13em);
+    }
+    &__img{
+        margin-bottom: 64px;
+    }
+    & .col-5{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__name{
+        @include font($colorLightBlack, 32px, 60%, 1.12em);
+        margin: 0 auto;
+    }
+    &__description{
+        @include font($colorGray, 16px, 60%, 1.5em);
+        margin: 0 auto;
+    }
+    &__swiper-container{
+        overflow: hidden;
+        margin-top: 244px;
+    }
+}

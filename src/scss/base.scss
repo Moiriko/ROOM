@@ -1,0 +1,38 @@
+body{
+    box-sizing: border-box;
+    font-family: $font-robo;
+    font-weight: 400;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    transition: .3s;
+}
+a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+button{
+    transition: .3s;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.container{
+    max-width: 1330px;
+    width: 100%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}

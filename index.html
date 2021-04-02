@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="icon" href="./src/img/png/logo.png">
+    <title>ROOM</title>
+</head>
+<body>
+    <header class="header">
+            <div class="header__row">
+                <div class="header__top row">
+                    <div class="col-6">
+                        <div class="header__top__items row">
+                            <p class="header__top__item">Contact Sales</p>
+                        <p class="header__top__item">TEL 646-791-3726</p>
+                        <select name="country" id="" class="header__top__item">
+                            <option selected="selected">US</option>
+                            <option value="">RUS</option>
+                            <option value="">KGZ</option>
+                        </select>
+                        </div>
+                    </div>
+                </div>
+                        <div class="header__bottom__row container row">
+                            <img src="./src/img/png/logo.png" alt="logo" class="header__logo">
+                            <ul class="header__bottom__menu row">
+                                <li class="header__bottom__nav"><a class="header__bottom__link">Products</a></li>
+                                <li class="header__bottom__nav"><a class="header__bottom__link">Explore</a></li>
+                                <li class="header__bottom__nav"><a class="header__bottom__link">Shop</a></li>
+                            </ul>  
+                            <div class="header__bottom__row2 row">
+                                <button>
+                                    <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.989624 9.1163C0.989624 4.0848 5.06305 0 10.0806 0C15.0981 0 19.1715 4.0848 19.1715 9.1163C19.1715 12.7874 16.5581 16.0916 14.3722 18.8531L10.5033 23.7875C10.2564 24.0381 9.90176 24.0993 9.66321 23.7941C9.24998 23.2667 8.83497 22.7227 8.41732 22.1752C7.55268 21.0419 6.6767 19.8936 5.7817 18.8465L5.78117 18.8459C3.59838 16.0844 0.989624 12.7841 0.989624 9.1163ZM18.1084 9.1163C18.1084 4.66637 14.5181 1.06602 10.0806 1.06602C5.64299 1.06602 2.05268 4.66637 2.05268 9.1163C2.05268 12.4164 4.53447 15.5565 6.61076 18.1836L6.61157 18.1846C7.3401 19.1646 8.11776 20.1381 8.89159 21.1069C9.29136 21.6073 9.69011 22.1065 10.0806 22.6046L13.5436 18.1924L13.5452 18.1904C15.6231 15.5623 18.1084 12.419 18.1084 9.1163Z" fill="black"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.18433 8.88907C6.18433 6.43807 8.12571 4.44434 10.513 4.44434C12.9003 4.44434 14.8423 6.43807 14.8423 8.88907C14.8423 11.3401 12.9003 13.3332 10.513 13.3332C8.12343 13.3332 6.18433 11.3424 6.18433 8.88907ZM13.8309 8.88907C13.8309 7.00454 12.3486 5.48267 10.513 5.48267C8.67803 5.48267 7.19569 7.00513 7.19569 8.88907C7.19569 10.7707 8.68031 12.2949 10.513 12.2949C12.348 12.2949 13.8309 10.7736 13.8309 8.88907Z" fill="black"/>
+                                        </svg>   
+                                        Showrooms</button>
+                                <a href="#">
+                                    <svg class="header__bottom__buy" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.010376 0.729589C0.010376 1.13231 0.279912 1.45918 0.611998 1.45918H2.71255C3.47738 1.45918 4.11995 2.01361 4.36104 2.8956L7.54429 14.4759L5.73317 19.9671C5.57169 20.4546 5.87192 20.956 6.28987 20.9678H19.5375C19.8695 20.9678 20.1391 20.6409 20.1391 20.2381C20.1391 19.8354 19.8695 19.5086 19.5375 19.5086H7.17638L8.58775 15.2296H19.5375C19.8037 15.2296 20.0293 15.02 20.109 14.7297L23.8705 4.4658C24.0502 3.97274 23.7482 3.46037 23.3229 3.44245H5.77412L5.49833 2.43909C5.09459 0.966809 3.992 0 2.71255 0H0.611998C0.279912 0 0.010376 0.326866 0.010376 0.729589ZM8.61334 13.7705L6.17501 4.90162H22.4001L19.1496 13.7705H8.61334Z" fill="#1A1A1A"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52674 21.7742C8.28166 21.7742 8.8932 22.4966 8.8932 23.3875C8.8932 24.2776 8.28166 25 7.52674 25C6.77182 25 6.16028 24.2776 6.16028 23.3875C6.16028 22.4966 6.77182 21.7742 7.52674 21.7742Z" fill="#1A1A1A"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.4585 21.7742C19.2133 21.7742 19.8249 22.4966 19.8249 23.3875C19.8249 24.2776 19.2133 25 18.4585 25C17.7036 25 17.092 24.2776 17.092 23.3875C17.092 22.4966 17.7036 21.7742 18.4585 21.7742Z" fill="#1A1A1A"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        
+        </div>
+        <div class="header__line"></div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                    <img src="./src/img/png/hero.png" alt="hero" class="hero__img col-12">
+                    <div class="hero__text row col-10">
+                        <h1 class="hero__title">Design that inspires a better way to work.</h1>
+                        <p class="hero__description">We've developed a series of purpose-built rooms that offer companies looking for change an affordable, sustainable, and flexible alternative to fixed construction and traditional office design.</p>
+                    </div>
+                    <div class="col-11 hero__items row">
+                        <div class="hero__item col-6">
+                            <img src="./src/img/png/Rectangle1.png" alt="" class="hero__item__img">
+                            <span class="hero__item__name">Phone Booth</span>
+                        </div>
+                        <div class="hero__item col-6">
+                            <img src="./src/img/png/Rectangle2.png" alt="" class="hero__item__img">
+                            <span class="hero__item__name">Focus Room</span>
+                        </div>
+                        <div class="hero__item col-6">
+                            <img src="./src/img/png/Rectangle3.png" alt="" class="hero__item__img">
+                            <span class="hero__item__name">Meeting Room</span>
+                        </div>
+                        <div class="hero__item col-6">
+                            <img src="./src/img/png/Rectangle4.png" alt="" class="hero__item__img">
+                            <span class="hero__item__name">Open Meeting Room</span>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section class="brands">
+            <div class="container">
+                <h2 class="brands__title">
+                    The world's leading brands choose ROOM.
+                </h2>
+                <p class="brands__description">Over 3,000 and counting.</p>
+                <div class="col-11 brands__row row">
+                    <div class="col-2">
+                        <img src="./src/img/png/1.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/2.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/3.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/4.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/5.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/6.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/7.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/8.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/9.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/10.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/11.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/12.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/13.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/14.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/15.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/16.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/17.png" alt="brand" class="brands__img">
+                    </div>
+                    <div class="col-2">
+                        <img src="./src/img/png/18.png" alt="brand" class="brands__img">
+                    </div>
+                </div>
+                <div class="brands__swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./src/img/png/swiper.png" alt="people">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./src/img/png/swiper.png" alt="people">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./src/img/png/swiper.png" alt="people">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <h2 class="products__title">
+                    Our simple and seamless modular products allow teams to shape and then reshape their work environment with ease.
+                </h2>
+                <a href="#" class="products__link">GET IN TOUCH</a>
+                <div class="products__row row">
+                    <div class="col-4">
+                        <div class="products__items">
+                            <img src="./src/img/png/product1.png" alt="" class="products__img">
+                        <span class="products__name">Cost-effective</span>
+                        <p class="products__text">At a fraction of the cost of traditional construction, our pre-fab solutions create additional space for focused work and collaboration without constant noise, debris and distraction.</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="products__items">
+                            <img src="./src/img/png/product2.png" alt="" class="products__img">
+                        <span class="products__name">Time Saving</span>
+                        <p class="products__text">Thoughtful design ensures simple installation in a few hours or less. And, because our products are safety ensured, you'll never have to spend time or money chasing after permits, contractors, and more.</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="products__items">
+                            <img src="./src/img/png/product3.png" alt="" class="products__img">
+                        <span class="products__name">Flexible</span>
+                        <p class="products__text">Unlike traditional construction, our purpose-built products were designed to adapt with your workspace and can easily be positioned in various places throughout your office, or to an entirely new location.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="rating">
+            <div class="container rating__container" data-aos="fade-up"
+            data-aos-duration="3000">
+                <div class="col-9">
+                    <div class="row col-3">
+                        <div class="rating__item">
+                            <img src="./src/img/png/stars.png" alt="stars" class="rating__stars">
+                            <p class="rating__text">“We can now have meetings in peace.”</p>
+                            <img src="./src/img/png/google.png" alt="" class="rating__logo">
+                        </div>
+                        <div class="rating__item">
+                            <img src="./src/img/png/stars.png" alt="stars" class="rating__stars">
+                            <p class="rating__text">“Amazing private space to get work done.”</p>
+                            <img src="./src/img/png/wayfair.png" alt="" class="rating__logo">
+                        </div>
+                        <div class="rating__item">
+                            <img src="./src/img/png/stars.png" alt="stars" class="rating__stars">
+                            <p class="rating__text">“Our booths are in constant use.”</p>
+                            <img src="./src/img/png/flexport.png" alt="" class="rating__logo">
+                        </div>
+                        <a href="#" class="rating__link">READ MORE REVIEWS</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="work">
+            <div class="container">
+                <div class="work__title row">
+                    <h2 class="work__title1">We take a human approach to a business-to-business industry, breaking the boundaries between corporate and personal, and rethinking every step of the user experience along the way.</h2>
+                    <h2 class="work__title2">We make work, work for you.</h2>
+                </div>
+            <div class="row work__row">
+                <div class="col-7" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                    <img src="./src/img/png/work1.png" alt="" class="work__img">
+                </div>
+                <div class="col-5">
+                        <p class="work__name">We sell direct.</p>
+                        <p class="work__description">
+                            We make extra room in the budget without compromising quality by selling direct. No middle man, and no additional construction required.
+                        </p>
+                </div>
+                <div class="col-5">
+                        <p class="work__name">We build with purpose.</p>
+                        <p class="work__description">
+                            We’re not just building another room with four walls, we’re building a more productive workspace. We design with you in mind, looking at every detail as an opportunity to enable a better working environment for everyone.
+                        </p>
+                </div>
+                <div class="col-7" data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                    <img src="./src/img/png/work2.png" alt="" class="work__img">
+                </div>
+                <div class="col-7" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                    <img src="./src/img/png/work3.png" alt="" class="work__img">
+                </div>
+                <div class="col-5">
+                        <p class="work__name">We design sustainably.</p>
+                        <p class="work__description">
+                            From design to delivery, we strive to lessen our impact on the environment. Our products are engineered with recycled materials and replace multiple cycles of construction, minimizing noise and our footprint.
+                        </p>
+                </div>
+            </div>
+            </div>
+            <div class="work__swiper-container container">
+                <div class="swiper-wrapper">
+                    <img src="./src/img/png/work-slider.png" alt="people" class="swiper-slide">
+                    <img src="./src/img/png/work-slider.png" alt="people" class="swiper-slide">
+                    <img src="./src/img/png/work-slider.png" alt="people" class="swiper-slide">
+                </div>
+            </div>
+        </section>
+        <section class="free-trial">
+            <div class="container free-trial__container">
+                <h2 class="free-trial__title">100 day risk-free trial</h2>
+                <div class="col-6 free-trial__row row">
+                    <div class="col-3">
+                        <div class="free-trial__img">
+                            <img src="./src/img/png/free1.png" alt="free">
+                        </div>
+                        <p>FREE SHIPPING</p>
+                    </div>
+                    <div class="col-3">
+                        <div class="free-trial__img">
+                            <img src="./src/img/png/free2.png" alt="free">
+                        </div>
+                        <p>PLUG & PLAY</p>
+                    </div>
+                    <div class="col-3">
+                        <div class="free-trial__img">
+                            <img src="./src/img/png/free3.png" alt="free">
+                        </div>
+                        <p>FREE RETURNS</p>
+                    </div>
+                </div>
+                <div class="free-trial__start row">
+                    <button class="free-trial__button">
+                        GET A ROOM
+                    </button>
+                    <a href="#" class="free-trial__link">Terms & Conditions apply</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<footer class="footer">
+    <div class="container">
+        <div class="row footer__row col-11">
+            <div class="col-2">
+                <img src="./src/img/png/logo2.png" alt="ROOM" class="footer__logo">
+            </div>
+            <div class="footer__nav row col-4">
+                <div class="col-6">
+                    <h5 class="footer__name">About</h5>
+                    <a href="#" class="footer__link">Compare</a>
+                    <a href="#" class="footer__link">Reviews</a>
+                    <a href="#" class="footer__link">Risk-Free Trial</a>
+                    <a href="#" class="footer__link">Careers</a>
+                    <a href="#" class="footer__link">Press</a>
+                    <a href="#" class="footer__link">Podcast</a>
+                    <a href="#" class="footer__link">Blog</a>
+                </div>
+                <div class="col-6">
+                    <h5 class="footer__name">Support</h5>
+                    <a href="#" class="footer__link">FAQ</a>
+                    <a href="#" class="footer__link">Booth Assembly</a>
+                    <a href="#" class="footer__link">Delivery</a>
+                    <a href="#" class="footer__link">Room Service</a>
+                    <a href="#" class="footer__link">Warranty</a>
+                    <a href="#" class="footer__link">Terms of Use</a>
+                    <a href="#" class="footer__link">Privacy Policy</a>
+                    <a href="#" class="footer__link">Copyright</a>
+                </div>
+                <div class="col-6">
+                    <h5 class="footer__name">Showrooms</h5>
+                    <a href="#" class="footer__link">New York</a>
+                    <a href="#" class="footer__link">London</a>
+                    <a href="#" class="footer__link">San Francisco</a>
+                    <a href="#" class="footer__link">Paris</a>
+                    <a href="#" class="footer__link">Copenhagen</a>
+                    <a href="#" class="footer__link">Zürich</a>
+                    <a href="#" class="footer__link">Los Angeles</a>
+                    <a href="#" class="footer__link">Berlin</a>
+                    <a href="#" class="footer__link">Belgium</a>
+                    <a href="#" class="footer__link">Virtual Demo</a>
+                </div>
+                <div class="col-6">
+                    <h5 class="footer__name">Office</h5>
+                    <h5 href="#" class="footer__link">599 Broadway, FL 9 New York, NY 10012</h5>
+                </div>
+            </div>
+            <div class="col-6 row">
+                <div class="col-2">
+                    <h5 class="footer__name">
+                        Follow us
+                    </h5>
+                    <div class="footer__icon__row row">
+                        <img src="./src/img/svg/fsb.svg" alt="" class="footer__icon">
+                        <img src="./src/img/svg/inst.svg" alt="" class="footer__icon">
+                        <img src="./src/img/svg/in.svg" alt="" class="footer__icon">
+                        <img src="./src/img/svg/p.svg" alt="" class="footer__icon">
+                    </div>
+                </div>
+                <div class="col-10">
+                    <div class="footer__join">
+                        <h5 class="footer__name">Join our mailing list</h5>
+                    <h5 class="footer__name">Be the first to hear everything about ROOM.</h5>
+                    <textarea name="text" id="" cols="40" rows="3" class="footer__window"></textarea>
+                    <select name="country" id="" class="row footer__list">
+                        <option selected="selected">United States</option>
+                        <option value="">United States</option>
+                        <option value="">United States</option>
+                    </select>
+                    <form action="">
+                        <p class="footer__yes"><input  type="checkbox" name="a" value="yes"> Yes. I would like to receive marketing communications from ROOM about product updates and special offers. Please refer to ROOM’s Privacy Policy for more information about how we process your data (including how to unsubscribe).</p>
+                    </form>
+                    <button class="row footer__sign-up">
+                        Sign Up
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+<script src="./src/js/brands.js"></script>
+<script src="./src/js/work.js"></script>
+</html>

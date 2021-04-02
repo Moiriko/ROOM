@@ -1,0 +1,21 @@
+.rating{
+    &__container{
+        background: url(../img/png/rating.png) no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+        padding: 120px 0;
+        & .col-9{
+            margin: 0 auto;
+        }
+    }
+    &__item{
+        margin-bottom: 40px;
+    }
+    &__text{
+        @include font($colorWhite, 24px, 100%, 1.33em);
+        margin: 14px 0 8px;
+    }
+    &__link{
+        @include font($colorWhite, 16px, 100%, 0.75em);
+    }
+}

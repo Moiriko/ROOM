@@ -1,0 +1,34 @@
+.free-trial{
+    text-align: center;
+    margin: 286px 0 79px;
+    &__container{
+        background: #F2F2F2;
+        padding: 63px 0 26px;
+    }
+    &__title{
+        @include font($colorBlack, 46px, 100%, 1.1em);
+    }
+    &__row{
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    &__img{
+        margin: 65px 0 22px;
+        height: 64px;
+    }
+    &__start{
+        flex-direction: column;
+    }
+    &__button{
+        outline: none;
+        border: none;
+        background: $colorGreen;
+        letter-spacing: 2px;
+        @include font($colorWhite, 12px, 11%, 5em);
+        margin: 70px auto 26px;
+    }
+    &__link{
+        @include font($colorGray, 12px, 11%, 1.2em);
+        margin: 0 auto;
+    }
+}

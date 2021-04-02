@@ -1,0 +1,35 @@
+.products{
+    padding: 0 0 230px 0;
+    &__title{
+        margin: 0 auto;
+        @include font($colorLightBlack, 48px, 90%, 1.21em);
+    }
+    &__link{
+        display: block;
+        @include font($colorGreen, 14px, 90%, 0.86em);
+        margin: 24px auto 71px;
+    }
+    &__row{
+        justify-content: space-between;
+    }
+    &__items{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    &__img{
+        margin: 0 auto;
+        display: block;
+
+    }
+    &__name{
+        display: block;
+        @include font($colorLightBlack, 24px, 70%, 1em);
+        margin: 26px auto 18px;
+    }
+    &__text{
+        @include font($colorGray, 16px, 100%, 1.5em);
+        width: 69.7%;
+        margin: 0 auto;
+    }
+}

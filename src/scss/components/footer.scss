@@ -1,0 +1,62 @@
+.footer{
+    background: #2B2B2B;
+    &__row{
+        padding: 97px 0 51px;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+    &__name{
+        margin-bottom: 19px;
+        opacity: 0.9;
+        @include font($colorWhite, 14px, 100%, 1em);
+    }
+    &__link{
+        display: block;
+        @include font($colorWhite, 14px, 65%, 16px);
+        margin: 2px 0;
+        opacity: 0.9;
+    }
+    &__icon__row{
+        justify-content: space-between;
+    }
+    &__join{
+        width: 65%;
+        margin: auto;
+    }
+    &__list{
+        border: none;
+        outline: none;
+        background: #2B2B2B;
+        @include font($colorWhite, 14px, auto, 1em);
+        opacity: 0.4;
+        margin: 16px 38px 56px auto;   
+    }
+    &__yes{
+        @include font($colorWhite, 11px, 100%, 1em);
+        letter-spacing: 2.4px;
+        opacity: 0.4;
+        text-transform: uppercase;
+    }
+    &__sign-up{
+        background: #2B2B2B;
+        margin: 58px 0 0 auto;
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+        letter-spacing: 2px;
+        padding: 20px;
+        @include font($colorWhite, 14px, 35.5%, 1em);
+        &:hover{
+            cursor: pointer;
+            border: 1px solid $colorWhite;
+        }
+    }
+    &__window{
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        outline: none;
+        resize: none;
+        background: #2B2B2B;
+        height: 50%;
+        color: $colorWhite;
+    }
+}

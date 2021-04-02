@@ -1,0 +1,32 @@
+.hero{
+    padding: 49px 0 244px;
+    &__img{
+        // padding: 53px;
+        margin: 0 auto;
+    }
+    &__text{
+        margin: 93px auto 211px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    &__title{
+        @include font($colorLightBlack, 48px, 31%, 1.21em);
+    }
+    &__description{
+        @include font($colorGray, 24px, 43%, 1.67em);
+    }
+    &__items{
+        margin: 0 auto;
+    }
+    &__item{
+        &__img{
+            display: block;
+            margin: 0 auto;
+        }
+        &__name{
+        @include font($colorLightBlack, 23px, 96%, 1.22);
+        margin: 9px auto 32px;
+        display: block;
+        }
+    }
+}
